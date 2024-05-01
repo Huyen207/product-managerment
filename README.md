@@ -1,5 +1,5 @@
 Cấu hình dự án
-- Open JDK  21.0.2
+- Open JDK  22
 - Apache Maven 3.9.6
 
 Các bước chạy dự án:
@@ -26,3 +26,20 @@ Các bước chạy dự án:
     mvn package
   
     java -jar tên_file_tại_B2
+    
+    
+    
+- Cách 2: Sử dụng IntelliJ IDEA
+
+B1:  Mở project product-managerment bằng intelliJ
+
+B2: Import modul product-io-spring
+ 
+   File->Project Structure -> Modules-> Add -> Import Module từ đậy chọn project product-io-spring 
+
+   Check Import module from external model -> maven -> Create
+
+B3: Run ProductmanagementApplication
+
+ 
+
